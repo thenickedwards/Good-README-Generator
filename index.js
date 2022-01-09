@@ -2,15 +2,56 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const markdown = require('./utils/generateMarkdown');
-const { type } = require('os');
+// const { type } = require('os');
 
 // TODO: Create an array of questions for user input
 const questions = [
     {
         name: "title",
         type: "input",
-        message: "WHat is the question?"
-
+        message: "What is the title of this project?"
+    },
+    // License Badge
+    {
+        name: "license",
+        type: "list",
+        message: "Which license should be applied to this project? (Use arrow keys to change selection and enter to select.)",
+        choices: ["MIT", "Apache 2.0", "GPL 3.0", "BSD 3", "None (Don't print a badge)"]
+    },
+    {
+        name: "description",
+        type: "input",
+        message: "Provide a brief description of this project."
+    },
+    {
+        name: "installation",
+        type: "input",
+        message: "Provide installation instructions this project."
+    },
+    {
+        name: "usage",
+        type: "input",
+        message: "Provide usage information this project."
+    },
+    {
+        name: "contributing",
+        type: "input",
+        message: "Provide contribution guidelines this project."
+    },
+    {
+        name: "tests",
+        type: "input",
+        message: "Provide testing instructions this project."
+    },
+    {
+        name: "ghusername",
+        type: "input",
+        message: "What is your github username?"
+    },
+    {
+        name: "email",
+        type: "input",
+        message: "What is your email if a user needs to contact you about this project?"
     }
 ];
 
@@ -25,7 +66,7 @@ function init() {
         .prompt(questions)
         .then(answers => {
             console.log(answers);
-            const myMarkdown = markdown(answers);
+            // const myMarkdown = markdown(answers);
 
             // call writeToFile func with dsired filename and myMarkdown
 
