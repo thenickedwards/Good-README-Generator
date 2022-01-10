@@ -17,6 +17,8 @@ URL for GitHub repo: https://github.com/thenickedwards/Good-README-Generator
 ## Demo Video
 ![This video demonstrates how to clone repo, install dependencies, and use this README generator.](https://watch.screencastify.com/v/A2sW3lqpkhRRmvKY2H7B)
 
+If you encounter any difficulty with the screencastify link above, you may use this link to the video in my Google Drive: [https://drive.google.com/file/d/1jIMywy9jxhm8zK6Pv2GPztcIyaX4DLUx/view](https://drive.google.com/file/d/1jIMywy9jxhm8zK6Pv2GPztcIyaX4DLUx/view)
+
 The README.md created from this demo can be found at [sample_README.md](sample_README.md)
 
 Thank you for reading the readme!
