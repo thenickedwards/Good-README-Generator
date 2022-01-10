@@ -15,7 +15,9 @@ Professional README Generator code written per acceptance criteria in [W9-hw_rea
 URL for GitHub repo: https://github.com/thenickedwards/Good-README-Generator
 
 ## Demo Video
-![Screenshot of Work Day Scheduler webpage including local storage.](planner_screenshot.png)
+![This video demonstrates how to clone repo, install dependencies, and use this README generator.](https://watch.screencastify.com/v/A2sW3lqpkhRRmvKY2H7B)
+
+The README.md created from this demo can be found at [sample_README.md](sample_README.md)
 
 Thank you for reading the readme!
 
