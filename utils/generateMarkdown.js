@@ -75,17 +75,17 @@ ${data.description}
 
 ## Table of Contents (clickable)
 
-*[Description](#description)
+* [Description](#description)
 
-*[Installation](#installation)
+* [Installation](#installation)
 
-*[Usage](#usage)
+* [Usage](#usage)
 
-*[Contributing](#contributing)
+* [Contributing](#contributing)
 
-*[Tests](#tests)
+* [Tests](#tests)
 
-*[Questions?](#questions)
+* [Questions?](#questions)
 
 
 <a href="#installation"/>
