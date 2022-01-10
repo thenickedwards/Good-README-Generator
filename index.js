@@ -58,7 +58,7 @@ const questions = [
 function writeToFile(fileName, data) {
     console.log("writeToFile is running!");
     fs.writeFile(fileName, data, (err) =>
-    err ? console.error(err) : console.log('Generating README!'))
+    err ? console.error(err) : console.log('README generated! Check the output folder and enjoy.'))
 }
 
 // TODO: Create a function to initialize app
@@ -71,7 +71,7 @@ function init() {
             // const myMarkdown = markdown(answers);
             writeToFile("./output/README.md", generateMarkdown(data));
             // call writeToFile func with dsired filename and myMarkdown
-
+            console.log("Generating README...")
         })
 }
 
