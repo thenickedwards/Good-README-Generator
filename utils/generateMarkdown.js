@@ -67,6 +67,7 @@ function generateMarkdown(data) {
 
 ${licenseBadge}${licenseLink}
 
+<a href="#description"/>
 ##Description
 
 ${data.description}
@@ -84,11 +85,15 @@ ${data.description}
 
 *[Tests](#tests)
 
+*[Questions?](#questions)
 
+
+<a href="#installation"/>
 ##Installation
 
 ${data.installation}
 
+<a href="#usage"/>
 ##Usage
 
 ${data.usage}
@@ -97,15 +102,18 @@ ${data.usage}
 
 ${renderLicenseSection(data)}
 
+<a href="#contributing"/>
 ##Contributing
 
 ${data.contributing}
 
+<a href="#tests"/>
 ##Tests
 
 ${data.tests}
 
-##Questions
+<a href="#questions"/>
+##Questions?
 
 If you have questions, want to work together, or connect, please find contact info below. Don't hesitate to reach out!
 
