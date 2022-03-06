@@ -15,7 +15,9 @@ Professional README Generator code written per acceptance criteria in [W9-hw_rea
 URL for GitHub repo: https://github.com/thenickedwards/Good-README-Generator
 
 ## Demo Video
-![This video demonstrates how to clone repo, install dependencies, and use this README generator.](https://watch.screencastify.com/v/A2sW3lqpkhRRmvKY2H7B)
+This video demonstrates how to clone repo, install dependencies, and use this README generator.
+
+[Screencastify](https://watch.screencastify.com/v/A2sW3lqpkhRRmvKY2H7B)
 
 If you encounter any difficulty with the screencastify link above, there are mp4 and webm video files in the repo or you can use this link to the video in my Google Drive: [https://drive.google.com/file/d/1jIMywy9jxhm8zK6Pv2GPztcIyaX4DLUx/view](https://drive.google.com/file/d/1jIMywy9jxhm8zK6Pv2GPztcIyaX4DLUx/view)
 
